@@ -4,5 +4,4 @@
   $pass = '';
   $db   = 'kemjar';
 
-  $link = mysqli_connect($host, $user, $pass, $db) or die(mysqli_error());
-?>
+  $link = mysqli_connect($host, $user, $pass, $db) or die();

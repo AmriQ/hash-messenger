@@ -1,7 +1,5 @@
 <?php
-  session_start();
-  require_once('functions/db.php');
-  require_once('functions/function.php');
+ require_once 'core/init.php';
 
   if (isset($_GET['email'], $_GET['kode'])) {
     if (cek_password($_GET['email'], $_GET['kode'])) {
@@ -18,4 +16,3 @@
   }else{
     echo "<h2>konfirmasi email gagal</h2>";
   }
-?>

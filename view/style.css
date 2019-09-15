@@ -3,27 +3,37 @@
   padding: 0;
   font-family: sans-serif;
 }
+
+.text-center {
+  text-align: center;
+}
+
 h3{
   color : Black;
 }
+
 #to{
   color: black;
   font-weight: bold;
 }
+
 h1{
   color: white;
   font-size: 40px;
   margin-bottom: 6px;
 }
+
 header a{
   text-decoration: none;
   color: white;
   margin-right: 10px;
   font-family: sans-serif;
 }
+
 header a:hover{
   text-decoration: underline;
 }
+
 header{
   text-align: center;
   padding-top: 10px;
@@ -32,9 +42,11 @@ header{
   background-color: rgb(4, 92, 143);
   box-shadow: 0px 0px 15px 0px grey;
 }
+
 body{
   background-color: rgb(237, 237, 237);
 }
+
 main{
   padding-top: 20px;
   text-align: center;
@@ -44,6 +56,7 @@ main{
   background-image: url('Background.jpg');
   opacity: 0.9;
 }
+
 .bungkus{
   border-radius: 7px;
   padding-top: 10px;
@@ -53,11 +66,13 @@ main{
   height: auto;
   background-color: rgba(195, 192, 192, 0.76);
 }
+
 #waktu_pesan{
   color: black;
   font-size: 13px;
   margin: 10px 0 10px 0;
 }
+
 #texarea_home{
   border: 2px solid rgb(4, 92, 143);
   border-radius: 10px;
@@ -65,12 +80,15 @@ main{
   height: 150px;
   padding: 10px;
 }
+
 #texarea_home:hover{
   border: 2px solid rgb(23, 186, 208);
 }
+
 #keterangan{
   color : black;
 }
+
 .isi_pesan{
   margin-left: 3px;
   width:97%;
@@ -79,6 +97,7 @@ main{
   border: 1px solid white;
   padding: 6px 4px;
 }
+
 .input_user{
   width: 80%;
   height: 30px;
@@ -88,9 +107,11 @@ main{
   border-radius: 5px;
   border: 2px solid rgb(4, 92, 143);
 }
+
 .input_user:hover{
   border: 2px solid rgb(23, 186, 208);
 }
+
 #lihat_pesan{
   display: inline-block;
   text-decoration: none;
@@ -106,9 +127,11 @@ main{
   color: white;
   transition: box-shadow 0.5s;
 }
+
 #lihat_pesan:hover{
   box-shadow: 0 2px 5px 5px rgb(125, 125, 125);
 }
+
 #submit_user{
   border-radius: 5px;
   font-weight: bold;
@@ -119,9 +142,11 @@ main{
   color: white;
   transition: box-shadow 0.5s;
 }
+
 #submit_user:hover{
   box-shadow: 0 2px 5px 5px rgb(125, 125, 125);
 }
+
 #submit_user2{
   margin-left: 40%;
   border-radius: 5px;
@@ -134,15 +159,19 @@ main{
   color: white;
   transition: box-shadow 0.5s;
 }
+
 #submit_user2:hover{
   box-shadow: 0 2px 5px 5px rgb(125, 125, 125);
 }
+
 #reset_password{
   color: Black;
 }
+
 #reset_password:hover{
   text-decoration: underline;
 }
+
 main form p{
   font-size: bold;
   margin-bottom: 10px;
@@ -150,6 +179,7 @@ main form p{
   color: white;
   background-color: red;
 }
+
 #pesan{
   font-size: bold;
   margin-bottom: 10px;
@@ -157,13 +187,16 @@ main form p{
   color: white;
   background-color: green;
 }
+
 #form_pesan{
   margin-top: 15px;
 }
+
 option{
   font-size: 10px;
   padding: 5px;
 }
+
 .bungkus_pesan{
   border-radius: 7px;
   background-color: rgba(195, 192, 192, 0.76);
@@ -175,50 +208,64 @@ option{
   height: auto;
   transition: box-shadow 0.5s;
 }
+
 .bungkus_pesan:hover{
   box-shadow: 0px 0px 13px 0px grey;
 }
+
 #isi_pesan{
   padding: 5px;
 }
+
 form a{
   text-decoration: none;
   color: blue;
   margin-right: 10px;
   font-family: sans-serif;
 }
+
 form a:hover{
   text-decoration: underline;
 }
+
 @media screen and (max-width: 760px){
+
   #texarea_home{
     width: 85%;
   }
+
   #lihat_pesan{
     width: 50%;
     margin-left: 20%;
   }
+
   .input_user{
     width: 80%;
   }
+
   header h1{
     font-size: 35px;
   }
+
   .bungkus_pesan{
     width: 80%;
     margin-left: 7%;
   }
+
   .bungkus{
     width: 90%;
     margin: 5%;
   }
+
   a{
     font-size: 20px;
   }
+
   #submit_user2{
     margin-left: 35%;
     font-size: 20px;
     width: 30%;
     height: 50px;
   }
+  
 }
