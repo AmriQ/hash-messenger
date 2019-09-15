@@ -19,7 +19,7 @@ require_once 'view/header.php';
       </div>
     <?php } ?>
   <?php } else { ?>
-    <div class="bungkus_pesan text-center">
+    <div class="bungkus_pesan">
       <h2>Belum ada pesan yang tersimpan</h2>
     </div>
   <?php } ?>
