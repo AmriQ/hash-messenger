@@ -19,20 +19,18 @@ if (!isset($_SESSION['user'])) {
   }
   require_once 'view/header.php';
   ?>
-  <main>
-    <div class="bungkus">
-      <h3>Dekrip Pesan Anda</h3>
-      <form action="dekrip.php" method="post" id='form_pesan'>
-        <textarea name="isi_hash" id='texarea_home'></textarea><br><br>
-        <p id="error"><?= $error ?></p>
-        <input type="submit" name="submit_hash" value="Hash" id="submit_user"><br><br>
-        <textarea name="isi" id='texarea_home' readonly><?php if (isset($hash)) {
-                                                            echo $hash;
-                                                          } ?></textarea><br><br>
-        <p id="pesan"><?= $notif_pesan ?></p><br>
-      </form>
-    </div>
-  </main>
+  <div class="bungkus">
+    <h3>Dekrip Pesan Anda</h3>
+    <form action="dekrip.php" method="post" id='form_pesan'>
+      <textarea name="isi_hash" id='texarea_home'></textarea><br><br>
+      <p id="error"><?= $error ?></p>
+      <input type="submit" name="submit_hash" value="Hash" id="submit_user"><br><br>
+      <textarea name="isi" id='texarea_home' readonly><?php if (isset($hash)) {
+                                                          echo $hash;
+                                                        } ?></textarea><br><br>
+      <p id="pesan"><?= $notif_pesan ?></p><br>
+    </form>
+  </div>
 <?php
 }
 require_once 'view/footer.php';

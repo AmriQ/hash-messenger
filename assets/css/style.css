@@ -31,6 +31,8 @@ header a:hover{
 }
 
 header{
+  position: fixed;
+  z-index: 9999;
   text-align: center;
   padding-top: 10px;
   width: 100%;
@@ -44,12 +46,12 @@ body{
 }
 
 main{
-  padding-top: 20px;
+  padding-top: 140px;
   text-align: center;
   width: 100%;
   padding-bottom: 700px;
   height: auto;
-  background-image: url('Background.jpg');
+  background-image: url('../img/Background.jpg');
   opacity: 0.9;
 }
 

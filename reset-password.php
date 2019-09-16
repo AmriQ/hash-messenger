@@ -36,17 +36,15 @@ if (isset($_SESSION['user'])) {
   }
   require_once 'view/header.php';
   ?>
-  <main>
-    <div class="bungkus">
-      <form class="login" action="" method="post"><br>
-        <input type="text" name="username" placeholder="Email" class="input_user" required><br>
-        <input type="password" name="password_1" placeholder="Password baru" class="input_user"><br>
-        <input type="password" name="password_2" placeholder="Ulangi password" class="input_user"><br>
-        <p id="error"><?= $error ?></p><br>
-        <input type="submit" name="submit" value="Masuk" id="submit_user">
-      </form>
-    </div>
-  </main>
+  <div class="bungkus">
+    <form class="login" action="" method="post"><br>
+      <input type="text" name="username" placeholder="Email" class="input_user" required><br>
+      <input type="password" name="password_1" placeholder="Password baru" class="input_user"><br>
+      <input type="password" name="password_2" placeholder="Ulangi password" class="input_user"><br>
+      <p id="error"><?= $error ?></p><br>
+      <input type="submit" name="submit" value="Masuk" id="submit_user">
+    </form>
+  </div>
 <?php
 }
 require_once 'view/footer.php';
